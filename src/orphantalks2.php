@@ -17,7 +17,7 @@ $res = mysql_query($query) or die(mysql_error());
 $etime = time();
 $number = mysql_num_rows($res); 
 $timed = $etime - $stime;
-$asd = ($arxiv > 0) ? ( '<p><a href="http://dibot.toolforge.org/orphantalks.php?arxiv=0">Выключить из запроса архивы</a></p>') : ('<p><a href="http://dibot.toolforge.org/orphantalks.php?arxiv=1">Включить в запрос архивы</a></p>');
+$asd = ($arxiv > 0) ? ( '<p><a href="/orphantalks.php?arxiv=0">Выключить из запроса архивы</a></p>') : ('<p><a href="/orphantalks.php?arxiv=1">Включить в запрос архивы</a></p>');
 //echo $asd;
 echo "<p>Всего: $number строк (выполнено за $timed сек).</p>";
 echo '<table class="tablesorter" border="1">

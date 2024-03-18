@@ -1,7 +1,8 @@
 <?php
+define('__LIBS__', dirname(dirname(__FILE__)).'/src/lib');
 $slider = '';
 $title = "Dibot Tools";
-require_once("../skeleton_1.php");
+require_once(__LIBS__.'/skeleton_1.php');
 ?>
 <p>Здесь расположены инструменты участника <a href="https://ru.wikipedia.org/wiki/User:Dmitry89">Dmitry89</a>.</p>
 		  <em>Общие</em>
@@ -38,5 +39,5 @@ require_once("../skeleton_1.php");
 			<li><a href="http://dibot.toolforge.org/redirects.htm">Редиректы</a></li> - перенаправления в Инкубаторе.
 
 <?php
-require_once("../skeleton_2.php");
+require_once(__LIBS__.'/skeleton_2.php');
 ?>

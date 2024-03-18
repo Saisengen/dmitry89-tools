@@ -2,7 +2,7 @@
         </div>
         <div class="col2">
           <div id="logo"><a href="http://dibot.toolforge.org/index.php"><img src="//upload.wikimedia.org/wikipedia/commons/2/2b/Robot_icon_blueeye.svg" width="150" height="150" alt="Tools by Dibot" /></a>
-		  <span class="powered"><a href="http://tools.wmflabs.org">Powered by Wikimedia Tool Labs</a></span>
+		  <span class="powered"><a href="http://toolforge.org">Powered by Wikimedia Toolforge</a></span>
 		  <hr></div>
 		  <div id="menu">
 		  <center><b><u>Инструменты</u></b></center>

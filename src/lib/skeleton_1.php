@@ -1,13 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
   <head>
-    <title><?php echo $title; ?> &mdash; Tool Labs</title>
+    <title><?php echo $title; ?> &mdash; Toolforge</title>
     <meta charset="utf-8" />
-    <meta name="title" content="<?php echo $title; ?> &mdash; Tool Labs" />
+    <meta name="title" content="<?php echo $title; ?> &mdash; Toolforge" />
     <meta name="copyright" content="Creative Commons Attribution-Share Alike 3.0" />
     <meta name="robots" content="noindex, nofollow" />
     <link rel="StyleSheet" href="//admin.toolforge.org/assets/style.css" type="text/css" media="screen" />
-    <link rel="StyleSheet" href="//tools.wmflabs.org/dibot/style.css" type="text/css" media="screen" />
+    <link rel="StyleSheet" href="//dibot.toolforge.org/style.css" type="text/css" media="screen" />
     <!--[if lt IE 7]>
     <style media="screen" type="text/css">
     .col1 {
